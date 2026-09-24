@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "products": "المنتجات",
+    "kitchenware": "أدوات المطبخ",
+    "decor": "ديكور المنزل",
+    "cups": "أكواب وأدوات زجاجية",
+    "about": "من نحن",
+    "contact": "اتصل بنا",
+    "account": "حسابي",
+    "cart": "السلة",
+    "search": "بحث..."
+  },
+  "home": {
+    "heroTitle": "قطع منزلية فاخرة تُضيء بيتك",
+    "heroSubtitle": "تسوق تشكيلة مختارة من أدوات المطبخ والديكور غير المتوفرة في الأسواق المحلية",
+    "shopNow": "تسوق الآن",
+    "newArrivals": "وصل حديثاً",
+    "bestSellers": "الأكثر مبيعاً",
+    "categories": "تصفح الفئات",
+    "trustSecure": "دفع آمن",
+    "trustDelivery": "توصيل سريع لكل الجزائر",
+    "trustQuality": "ضمان الجودة"
+  },
+  "product": {
+    "addToCart": "أضف إلى السلة",
+    "buyNow": "اشترِ الآن",
+    "inStock": "متوفر",
+    "lowStock": "كمية محدودة",
+    "outOfStock": "غير متوفر",
+    "quantity": "الكمية",
+    "description": "الوصف",
+    "specifications": "المواصفات",
+    "reviews": "التقييمات",
+    "relatedProducts": "منتجات ذات صلة",
+    "shareWhatsApp": "شارك عبر واتساب",
+    "new": "جديد",
+    "bestseller": "الأكثر مبيعاً",
+    "limitedStock": "كمية محدودة"
+  },
+  "cart": {
+    "title": "سلة التسوق",
+    "empty": "سلتك فارغة",
+    "continueShopping": "متابعة التسوق",
+    "subtotal": "المجموع الفرعي",
+    "shipping": "التوصيل",
+    "total": "الإجمالي",
+    "checkout": "إتمام الطلب",
+    "remove": "إزالة"
+  },
+  "checkout": {
+    "step1Title": "معلومات العميل",
+    "fullName": "الاسم الكامل",
+    "phone": "رقم الهاتف",
+    "email": "البريد الإلكتروني (اختياري)",
+    "wilaya": "الولاية",
+    "city": "البلدية / المدينة",
+    "address": "العنوان بالتفصيل",
+    "step2Title": "طريقة التوصيل",
+    "homeDelivery": "توصيل إلى المنزل (2-5 أيام)",
+    "stopDesk": "مكتب التوصيل (Stop Desk)",
+    "step3Title": "الدفع",
+    "cod": "الدفع عند الاستلام",
+    "stripe": "بطاقة بنكية (Stripe)",
+    "reviewOrder": "مراجعة الطلب",
+    "placeOrder": "تأكيد الطلب",
+    "step4Title": "تم تأكيد طلبك!",
+    "orderNumber": "رقم الطلب",
+    "estimatedDelivery": "تاريخ التوصيل المتوقع",
+    "trackOrder": "تتبع طلبك"
+  },
+  "footer": {
+    "aboutUs": "من نحن",
+    "faq": "الأسئلة الشائعة",
+    "returns": "سياسة الاستبدال والاسترجاع",
+    "privacy": "سياسة الخصوصية",
+    "terms": "الشروط والأحكام",
+    "followUs": "تابعنا",
+    "location": "قمار، الوادي، الجزائر"
+  },
+  "common": {
+    "priceCurrency": "د.ج"
+  }
+}

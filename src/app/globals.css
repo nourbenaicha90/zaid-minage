@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Inter:wght@400;500;600&family=Noto+Naskh+Arabic:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-terracotta: #B85C38;
+  --color-sand: #E8D5C4;
+  --color-gold: #C9A227;
+  --color-offwhite: #FAF7F2;
+  --color-charcoal: #2D2D2D;
+}
+
+html[dir="rtl"] body {
+  font-family: "Cairo", "Noto Naskh Arabic", sans-serif;
+}
+
+html[dir="ltr"] body {
+  font-family: "Inter", sans-serif;
+}
+
+html[dir="ltr"] h1,
+html[dir="ltr"] h2,
+html[dir="ltr"] h3 {
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  background-color: var(--color-offwhite);
+  color: var(--color-charcoal);
+}
+
+/* Smooth scroll-triggered fade-ins used across storefront sections */
+.reveal {
+  opacity: 0;
+  animation: fade-in 0.6s ease-out forwards;
+}
+
+/* Western Arabic numerals in both languages, per localization spec */
+.dzd::after {
+  content: " د.ج";
+}
+html[dir="ltr"] .dzd::after {
+  content: " DZD";
+}

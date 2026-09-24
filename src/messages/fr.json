@@ -1,0 +1,84 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "kitchenware": "Ustensiles de cuisine",
+    "decor": "Décoration",
+    "cups": "Tasses & Verrerie",
+    "about": "À propos",
+    "contact": "Contact",
+    "account": "Mon compte",
+    "cart": "Panier",
+    "search": "Rechercher..."
+  },
+  "home": {
+    "heroTitle": "Des pièces d'exception pour illuminer votre foyer",
+    "heroSubtitle": "Découvrez une sélection d'ustensiles de cuisine et de décoration introuvables sur le marché local",
+    "shopNow": "Découvrir",
+    "newArrivals": "Nouveautés",
+    "bestSellers": "Meilleures ventes",
+    "categories": "Parcourir les catégories",
+    "trustSecure": "Paiement sécurisé",
+    "trustDelivery": "Livraison rapide partout en Algérie",
+    "trustQuality": "Garantie qualité"
+  },
+  "product": {
+    "addToCart": "Ajouter au panier",
+    "buyNow": "Acheter maintenant",
+    "inStock": "En stock",
+    "lowStock": "Stock limité",
+    "outOfStock": "Rupture de stock",
+    "quantity": "Quantité",
+    "description": "Description",
+    "specifications": "Caractéristiques",
+    "reviews": "Avis clients",
+    "relatedProducts": "Produits similaires",
+    "shareWhatsApp": "Partager sur WhatsApp",
+    "new": "Nouveau",
+    "bestseller": "Meilleure vente",
+    "limitedStock": "Stock limité"
+  },
+  "cart": {
+    "title": "Panier",
+    "empty": "Votre panier est vide",
+    "continueShopping": "Continuer les achats",
+    "subtotal": "Sous-total",
+    "shipping": "Livraison",
+    "total": "Total",
+    "checkout": "Passer la commande",
+    "remove": "Retirer"
+  },
+  "checkout": {
+    "step1Title": "Informations client",
+    "fullName": "Nom complet",
+    "phone": "Numéro de téléphone",
+    "email": "E-mail (facultatif)",
+    "wilaya": "Wilaya",
+    "city": "Commune / Ville",
+    "address": "Adresse détaillée",
+    "step2Title": "Mode de livraison",
+    "homeDelivery": "Livraison à domicile (2-5 jours)",
+    "stopDesk": "Bureau de livraison (Stop Desk)",
+    "step3Title": "Paiement",
+    "cod": "Paiement à la livraison",
+    "stripe": "Carte bancaire (Stripe)",
+    "reviewOrder": "Vérifier la commande",
+    "placeOrder": "Confirmer la commande",
+    "step4Title": "Commande confirmée !",
+    "orderNumber": "Numéro de commande",
+    "estimatedDelivery": "Date de livraison estimée",
+    "trackOrder": "Suivre ma commande"
+  },
+  "footer": {
+    "aboutUs": "À propos",
+    "faq": "FAQ",
+    "returns": "Politique de retour",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "followUs": "Suivez-nous",
+    "location": "Guemar, El Oued, Algérie"
+  },
+  "common": {
+    "priceCurrency": "DZD"
+  }
+}
