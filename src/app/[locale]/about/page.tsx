@@ -1,6 +1,8 @@
-import { getTranslations } from "next-intl/server";
+// import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 
 export default async function AboutPage({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale);
   const isAr = locale === "ar";
   return (
     <div className="max-w-3xl mx-auto px-4 py-16">
