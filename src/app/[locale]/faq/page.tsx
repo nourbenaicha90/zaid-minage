@@ -1,3 +1,4 @@
+import { setRequestLocale } from "next-intl/server";
 const FAQ_AR = [
   { q: "ما هي مدة التوصيل؟", a: "يتم التوصيل خلال 2 إلى 5 أيام عمل حسب الولاية، عبر التوصيل للمنزل أو عبر مكتب التوصيل (Stop Desk)." },
   { q: "ما هو الدفع عند الاستلام (COD)؟", a: "تدفع ثمن طلبك نقداً عند استلامه من المندوب أو من مكتب التوصيل، دون الحاجة للدفع المسبق." },
@@ -15,6 +16,7 @@ const FAQ_FR = [
 ];
 
 export default function FaqPage({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale); 
   const isAr = locale === "ar";
   const items = isAr ? FAQ_AR : FAQ_FR;
 
