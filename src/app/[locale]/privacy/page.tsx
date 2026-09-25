@@ -1,6 +1,8 @@
+import { setRequestLocale } from "next-intl/server";
 import { LegalPage } from "@/components/storefront/legal-page";
 
 export default function PrivacyPage({ params: { locale } }: { params: { locale: string } }) {
+  setRequestLocale(locale);
   return (
     <LegalPage
       locale={locale}
