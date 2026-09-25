@@ -7,7 +7,10 @@ const nextConfig = {
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "res.cloudinary.com" },
-      { protocol: "https", hostname: "*.fbcdn.net" },
+      
+      { protocol: "https", hostname: "scontent.fogx1-2.fna.fbcdn.net", pathname: "/**" },
+      { protocol: "https", hostname: "*.fbcdn.net", pathname: "/**" },
+      
     ],
   },
 };
