@@ -43,7 +43,7 @@ export default async function HomePage({ params: { locale } }: { params: { local
             </Link>
           </div>
           <div className="relative h-72 md:h-96 rounded-xl2 overflow-hidden shadow-premium">
-            <Image src="/placeholder-products/hero.jpg" alt="ZAID Minage" fill className="object-cover" />
+            <Image src="/placeholder-products/HIRO.png" alt="ZAID Minage" fill className="object-cover" />
           </div>
         </div>
       </section>
